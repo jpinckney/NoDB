@@ -1,25 +1,30 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+
+import React, { Component } from "react"
+import DatePicker from "react-datepicker"
+import NavBar from "./NavBar"
+// import SideBar from "./SideBar"
+import Attack from "./Attack"
+import Defense from "./Defense"
+import Magic from "./Magic"
+import Misc from "./Misc"
+import moment from "moment"
+
+
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        {/* <DatePicker
+          selected={this.state.startDate}
+          onChange={this.handleChange} />
+        <NavBar /> */}
+        {/* <SideBar /> */}
+        {/* <Attack />
+        <Defense />
+        <Magic />
+        <Misc /> */}
       </div>
     );
   }

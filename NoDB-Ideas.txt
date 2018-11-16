@@ -1,0 +1,84 @@
+The Idea 
+
+is a subscription based website. the first thing the user will see is a login page. after they login it will take them to a separate page where they will be able to manage their monthly subscription of LoL items they would like to purchase. 
+
+
+REQUIREMENTS
+
+Full CRUD
+(put||update / delete) - being able to add / remove items from backpack
+
+(get||read) displaying info of desired item
+
+
+STYLE IDEAS
+
+Login Page
+
+the login box will be positioned in the center of the screen with its own background color. Will display empty input box for username and second input will be full of ******* implying password is already saved. the login box will maybe contain other irrelevant but fun info and appealing purposes. the background of this page will most likely be a static image or maybe cycling images. but most likely a single static image.
+
+Nav Bar
+
+top left is a logo. top right will be a welcome (username) whatever the put into the login page. it will also contain a logout button to the right of the welcome message that will take you back to the login screen. 
+The Nav bar will contain 3 options. 
+~~~~~ "About us" when clicked will display a fun message. 
+~~~~~ "my backpack" when clicked will bring up a toggle view of my backpack on the left side of the screen. it will follow me as i scroll up and down the page staying in the middle. the backpack will have a save and a remove button to edit the items.
+~~~~~ "feedback" when clicked the user will be able to create and post a message of feedback. 
+
+Main Page
+
+This will contain several items listed in 4 columns (Attack, Defense, Magic, MISC) items will be listed in the appropriate categories. when clicked will display info about the item. ask steph about how she did her project for further insite regarding clicking on images
+
+///////////////////////////////
+///////////////////////////////
+///////////////////////////////
+///////////////////////////////
+///////////////////////////////
+///////////////////////////////
+///////////////////////////////
+///////////////////////////////
+///////////////////////////////
+///////////////////////////////
+///////////////////////////////
+///////////////////////////////
+
+
+
+the idea is that when opened the user will see a login page that will prompt for credentials to view the shop and saved items. after login it will take them to another page where they will be able to manage the items they want to purchase. (could relate this to a monthly subscription) in the nav bar there will be a welcome (username) along with a sign out. still in the nav bar there will be options --- my cart when selected will bring up a toggle view of my cart.
+
+
+Style Ideas
+
+ on the left side of the screen and will follow me up and down as i scroll through the items staying in the middle of the screen. with two buttons at the bottom of that cart (Save & remove) meanwhile all the items will be flex-wrap: wrapped on the remaining space on the page. 
+
+
+first page will be a sign in which will take you to the main page and display a welcome message "sign in to view saved items"
+
+
+
+NAV BAR 
+
+(defense, attack, magic, misc) - these options will bring a
+drop down menu that will hold several item choices that fall under the proper categories. ///////// or when they simply click on one of the options it will take them to a new screen displaying several items when clicked will update to the inventory?? when an item is clicked it will (get) the info /// or maybe a hover over the list will (get) the info
+
+In the nav bar i will also have a logo of league of legends
+
+maybe a sign in option at the right side of the nav bar which will take me to another screen to (Save my items //// or update???)
+
+
+
+BODY 
+
+will hold the inventory of the selected items in small box icons
+?? when items in inventory are selected i have an option to sell (Delete)
+maybe a small backpack icon next to the boxes for my inventory slots. 
+
+dont like what you see? h1 tag //// (create) your own item ///// add input box for various stats like price, attributes ect. 
+
+background picture
+
+
+
+
+
+
