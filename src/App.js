@@ -1,30 +1,26 @@
 
 import React, { Component } from "react"
-import DatePicker from "react-datepicker"
-import NavBar from "./NavBar"
+// import NavBar from "./NavBar"
 // import SideBar from "./SideBar"
-import Attack from "./Attack"
-import Defense from "./Defense"
-import Magic from "./Magic"
-import Misc from "./Misc"
-import moment from "moment"
+
 
 
 import './App.css';
+import DisplayItems from "./DisplayItems";
+import DisplayInventory from "./DisplayInventory";
 
 class App extends Component {
   render() {
     return (
-      <div>
-        {/* <DatePicker
-          selected={this.state.startDate}
-          onChange={this.handleChange} />
-        <NavBar /> */}
-        {/* <SideBar /> */}
-        {/* <Attack />
-        <Defense />
-        <Magic />
-        <Misc /> */}
+      <div className="container">
+        <div className="list">
+          <h6>This is my list of items</h6>
+          <DisplayItems />
+        </div>
+        <div className="list">
+          <h1>This is my Inventory</h1>
+          <DisplayInventory />
+        </div>
       </div>
     );
   }
