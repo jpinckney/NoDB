@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import axios from 'axios'
+// import axios from "axios"
 
 class DisplayInventory extends Component {
 
@@ -10,18 +10,9 @@ class DisplayInventory extends Component {
     }
   }
 
-  componentDidMount() {
-    axios.get('/api/inventory')
-      .then((response) => {
-        this.setState({
-          myInventory: response.data
-        })
-      })
-  }
-
   render() {
-    return this.state.myInventory.map(i => {
-      return <p>{i.name}</p>
+    return this.props.myInventory.map(i => {
+      return <p onClick={()=>this.props.deleteItems(i.id) }className="pointer2">{i.name}</p>
     })
   }
 

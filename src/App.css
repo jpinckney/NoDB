@@ -10,3 +10,9 @@ width: 50%
 .pointer {
   cursor: grabbing
 }
+.pointer2 {
+  cursor: no-drop
+}
+/* .picbackdrop {
+
+} */
